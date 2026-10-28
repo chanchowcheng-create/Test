@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Test - /publish-to-github</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 42rem; margin: 3rem auto; padding: 0 1rem; line-height: 1.6; color: #1f2328; }
+  code, pre { background: #f2f4f6; border-radius: 4px; }
+  code { padding: .1em .35em; }
+  pre { padding: 1em; overflow-x: auto; }
+  @media (prefers-color-scheme: dark) { body { background: #0d1117; color: #e6edf3; } code, pre { background: #1c2128; } a { color: #58a6ff; } }
+</style>
+</head>
+<body>
+<h1>Test</h1>
+<p>A Claude Code project that provides the <code>/publish-to-github</code> custom slash command, which automates publishing a project to GitHub.</p>
+<h2>What it does</h2>
+<ol>
+  <li>Scans files and git history for secrets before anything is pushed</li>
+  <li>Creates or updates the README</li>
+  <li>Pushes the code to your GitHub repo</li>
+  <li>Sets up CI/CD with GitHub Actions</li>
+  <li>Creates or updates a GitHub Pages site</li>
+  <li>Updates the repo About section, including the Pages link</li>
+</ol>
+<h2>Usage</h2>
+<pre>/publish-to-github owner/repo [branch]</pre>
+<p><a href="https://github.com/chanchowcheng-create/Test">View on GitHub</a></p>
+</body>
+</html>
